@@ -1,0 +1,1 @@
+./test < stdin.txt | java -jar OOhomework6.jar

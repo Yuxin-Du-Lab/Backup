@@ -1,0 +1,190 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAF19Wp8bly+/dI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAF19Wp8bly/UPI=",
+					"_parent": {
+						"$ref": "AAAAAAF19Wp8bly+/dI="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAF19Wp8blzAEtM=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "SequenceDiagram1",
+							/* ... */
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XDX1hxSf1A=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "random",
+							"source": {
+								"$ref": "AAAAAAF19WseKFzR0Fg="
+							},
+							"target": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XEGoBxp0MI=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "visitIndex",
+							"source": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XIRjhyHJlw=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "selectCandidate",
+							"source": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XJ1phylsVo=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "loadDecoder",
+							"source": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XLpbhy/X1E=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "playMusic",
+							"source": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"target": {
+								"$ref": "AAAAAAF19WseKFzR0Fg="
+							},
+							"messageSort": "reply",
+							"arguments": "-",
+							"assignmentTarget": "music"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XQXMRzgehE=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "considerOnRating",
+							"source": {
+								"$ref": "AAAAAAF19WseKFzR0Fg="
+							},
+							"target": {
+								"$ref": "AAAAAAF19WseKFzR0Fg="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XVAOBz+Yzo=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "rateMusic",
+							"source": {
+								"$ref": "AAAAAAF19WseKFzR0Fg="
+							},
+							"target": {
+								"$ref": "AAAAAAF19XClAhwwqIY="
+							},
+							"messageSort": "asynchCall",
+							"arguments": "-"
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF19WseKFzR0Fg=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "User",
+							"represent": {
+								"$ref": "AAAAAAF19WseJ1zQsyQ="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF19XClAhwwqIY=",
+							"_parent": {
+								"$ref": "AAAAAAF19Wp8bly/UPI="
+							},
+							"name": "MusicPlayer",
+							"represent": {
+								"$ref": "AAAAAAF19XClAhwvO74="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF19WseJ1zQsyQ=",
+					"_parent": {
+						"$ref": "AAAAAAF19Wp8bly+/dI="
+					},
+					"name": "Role1"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF19XClAhwvO74=",
+					"_parent": {
+						"$ref": "AAAAAAF19Wp8bly+/dI="
+					},
+					"name": "Role2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,190 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAF19V15ZcaCyLc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAF19V15ZcaDYhk=",
+					"_parent": {
+						"$ref": "AAAAAAF19V15ZcaCyLc="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAF19V15ZcaEyDY=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "SequenceDiagram1",
+							/* ... */
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19V7AjcbXCL0=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "askAvailability",
+							"source": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19V8BwsbvDiE=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "checkAvailability",
+							"source": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19V9CCccHcC8=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "false",
+							"source": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"messageSort": "reply",
+							"assignmentTarget": "result"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19V9yxccdqY8=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "provideSuggestions",
+							"source": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"messageSort": "asynchCall",
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19V/gxsc1vGw=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "makeDecision",
+							"source": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19WBBvsdNb30=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "orderAnother",
+							"source": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19WCTRsdkdFU=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "orderSuccess",
+							"source": {
+								"$ref": "AAAAAAF19V4g1MazWxo="
+							},
+							"target": {
+								"$ref": "AAAAAAF19V4JhcaTgKI="
+							},
+							"messageSort": "reply",
+							"arguments": "-"
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF19V4JhcaTgKI=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "Customer",
+							"represent": {
+								"$ref": "AAAAAAF19V4JhcaScTw="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF19V4g1MazWxo=",
+							"_parent": {
+								"$ref": "AAAAAAF19V15ZcaDYhk="
+							},
+							"name": "Clerk",
+							"represent": {
+								"$ref": "AAAAAAF19V4gx8ayut0="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF19V4JhcaScTw=",
+					"_parent": {
+						"$ref": "AAAAAAF19V15ZcaCyLc="
+					},
+					"name": "Role1"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF19V4gx8ayut0=",
+					"_parent": {
+						"$ref": "AAAAAAF19V15ZcaCyLc="
+					},
+					"name": "Role2"
+				}
+			]
+		}
+	]
+}

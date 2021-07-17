@@ -1,0 +1,128 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAF19XiqVJVEQ08=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAF19XiqVJVFUwM=",
+					"_parent": {
+						"$ref": "AAAAAAF19XiqVJVEQ08="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAF19XiqVJVGSTk=",
+							"_parent": {
+								"$ref": "AAAAAAF19XiqVJVFUwM="
+							},
+							"name": "SequenceDiagram1",
+							/* ... */
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19Xpn9JWe8dk=",
+							"_parent": {
+								"$ref": "AAAAAAF19XiqVJVFUwM="
+							},
+							"name": "isOK",
+							"source": {
+								"$ref": "AAAAAAF19XnUAZVUTLU="
+							},
+							"target": {
+								"$ref": "AAAAAAF19Xn4O5V2Qqg="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XqP85W1c40=",
+							"_parent": {
+								"$ref": "AAAAAAF19XiqVJVFUwM="
+							},
+							"name": "selfCheck",
+							"source": {
+								"$ref": "AAAAAAF19Xn4O5V2Qqg="
+							},
+							"target": {
+								"$ref": "AAAAAAF19Xn4O5V2Qqg="
+							},
+							"arguments": "-"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF19XsjQZXvCX4=",
+							"_parent": {
+								"$ref": "AAAAAAF19XiqVJVFUwM="
+							},
+							"name": "true",
+							"source": {
+								"$ref": "AAAAAAF19Xn4O5V2Qqg="
+							},
+							"target": {
+								"$ref": "..." // 缺失部分 1
+							},
+							"messageSort": "reply",
+							"assignmentTarget": "result"
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF19XnUAZVUTLU=",
+							"_parent": {
+								"$ref": "AAAAAAF19XiqVJVFUwM="
+							},
+							"name": "User",
+							"represent": {
+								"$ref": "AAAAAAF19XnUAZVTDXc="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "...", // 缺失部分 2
+							"_parent": {
+								"$ref": "AAAAAAF19XiqVJVFUwM="
+							},
+							"name": "Device",
+							"represent": {
+								"$ref": "AAAAAAF19Xn4NpV1R0w="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF19XnUAZVTDXc=",
+					"_parent": {
+						"$ref": "AAAAAAF19XiqVJVEQ08="
+					},
+					"name": "Role1"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF19Xn4NpV1R0w=",
+					"_parent": {
+						"$ref": "AAAAAAF19XiqVJVEQ08="
+					},
+					"name": "Role2"
+				}
+			]
+		}
+	]
+}

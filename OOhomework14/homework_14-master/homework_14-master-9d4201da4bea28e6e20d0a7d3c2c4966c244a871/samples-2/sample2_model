@@ -1,0 +1,9 @@
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C1","_type":"UMLClass","_id":"AAAAAAFrBpgFkpBG\/yE="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C2","_type":"UMLClass","_id":"AAAAAAFrBpgFk5BHW4Y="}
+{"_parent":"AAAAAAFrBpgFk5BHW4Y=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBLknw=","source":"AAAAAAFrBpgFk5BHW4Y=","target":"AAAAAAFrBpgFkpBG\/yE="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C3","_type":"UMLClass","_id":"AAAAAAFrBpgFk5BIFkU="}
+{"_parent":"AAAAAAFrBpgFk5BIFkU=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBMGPs=","source":"AAAAAAFrBpgFk5BIFkU=","target":"AAAAAAFrBpgFk5BHW4Y="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C4","_type":"UMLClass","_id":"AAAAAAFrBpgFlJBJFuk="}
+{"_parent":"AAAAAAFrBpgFlJBJFuk=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBNYik=","source":"AAAAAAFrBpgFlJBJFuk=","target":"AAAAAAFrBpgFk5BHW4Y="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C5","_type":"UMLClass","_id":"AAAAAAFrBpgFlJBKMns="}
+{"_parent":"AAAAAAFrBpgFlJBKMns=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBOG38=","source":"AAAAAAFrBpgFlJBKMns=","target":"AAAAAAFrBpgFk5BIFkU="}

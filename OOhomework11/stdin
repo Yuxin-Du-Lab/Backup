@@ -1,0 +1,20 @@
+ap 1 jack 100
+ap 2 mark 100
+ap 3 dark 100
+ar 1 2 100
+ar 1 3 10
+ar 2 3 10
+am 1 100 0 1 2
+anm 2 str 0 1 2
+arem 3 100 0 1 2
+sei 1
+aem 4 1 0 1 2
+sm 1
+sm 2
+sm 3
+sim 4
+qsv 1
+qrm 2
+qp 1
+dce 100
+qm 1

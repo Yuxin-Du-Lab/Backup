@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OOhomework11:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OOhomework11_jar</output-path>
+    <root id="archive" name="OOhomework11.jar">
+      <element id="module-output" name="OOhomework11" />
+    </root>
+  </artifact>
+</component>

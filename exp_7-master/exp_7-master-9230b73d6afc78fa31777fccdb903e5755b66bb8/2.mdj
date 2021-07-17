@@ -1,0 +1,220 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFF+h6SjaM2Hec=",
+  "name": "Untitled",
+  "ownedElements": [
+    {
+      "_type": "UMLCollaboration",
+      "_id": "AAAAAAF1ZE53ciFZnAA=",
+      "_parent": {
+        "$ref": "AAAAAAFF+h6SjaM2Hec="
+      },
+      "name": "Collaboration1",
+      "ownedElements": [
+        {
+          "_type": "UMLInteraction",
+          "_id": "AAAAAAF1ZE53cyFaVWA=",
+          "_parent": {
+            "$ref": "AAAAAAF1ZE53ciFZnAA="
+          },
+          "name": "Interaction1",
+          "ownedElements": [
+            {
+              "_type": "UMLSequenceDiagram",
+              "_id": "AAAAAAF1ZE53cyFbfB4=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "WatchTV",
+              /* ... */
+            }
+          ],
+          "messages": [
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPAL+SMvC2A=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "turnOn",
+              "source": {
+                "$ref": "AAAAAAF1ZFCElCFuwrc="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPAqdyNG/Qw=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "turnOnDisplay",
+              "source": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPCM8yNdkw8=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "showVideo",
+              "source": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCElCFuwrc="
+              },
+              "messageSort": "reply",
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPEtmSN1G7Q=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "changeChannel",
+              "source": {
+                "$ref": "AAAAAAF1ZFCElCFuwrc="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPFNVCOLl9s=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "updateWatchingChannel",
+              "source": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPG4ESOj2KM=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "showVideo",
+              "source": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCElCFuwrc="
+              },
+              "messageSort": "reply",
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPK4zyP7ve8=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "changeVolume",
+              "source": {
+                "$ref": "AAAAAAF1ZFCElCFuwrc="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPLSjyQRUXs=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "updateVolume",
+              "source": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "arguments": "-"
+            },
+            {
+              "_type": "UMLMessage",
+              "_id": "AAAAAAF1ZPNvPSQt0i8=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "showVolume",
+              "source": {
+                "$ref": "AAAAAAF1ZFCgiiGO764="
+              },
+              "target": {
+                "$ref": "AAAAAAF1ZFCElCFuwrc="
+              },
+              "messageSort": "reply",
+              "arguments": "-"
+            }
+          ],
+          "participants": [
+            {
+              "_type": "UMLLifeline",
+              "_id": "AAAAAAF1ZFCElCFuwrc=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "Customer",
+              "represent": {
+                "$ref": "AAAAAAF1ZFCElCFtH9A="
+              },
+              "isMultiInstance": false
+            },
+            {
+              "_type": "UMLLifeline",
+              "_id": "AAAAAAF1ZFCgiiGO764=",
+              "_parent": {
+                "$ref": "AAAAAAF1ZE53cyFaVWA="
+              },
+              "name": "Television",
+              "represent": {
+                "$ref": "AAAAAAF1ZFCgiiGNR4g="
+              },
+              "isMultiInstance": false
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "_type": "UMLAttribute",
+          "_id": "AAAAAAF1ZFCElCFtH9A=",
+          "_parent": {
+            "$ref": "AAAAAAF1ZE53ciFZnAA="
+          },
+          "name": "Role1"
+        },
+        {
+          "_type": "UMLAttribute",
+          "_id": "AAAAAAF1ZFCgiiGNR4g=",
+          "_parent": {
+            "$ref": "AAAAAAF1ZE53ciFZnAA="
+          },
+          "name": "Role2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLStateMachine",
+			"_id": "AAAAAAF2A/KORa/7iNU=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "StateMachine1",
+			"regions": [
+				{
+					"_type": "UMLRegion",
+					"_id": "AAAAAAF2A/KORq/8das=",
+					"_parent": {
+						"$ref": "AAAAAAF2A/KORa/7iNU="
+					},
+					"vertices": [
+						{
+							"_type": "UMLPseudostate",
+							"_id": "AAAAAAF2A/Kt5LACam0=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "p",
+							"kind": "initial"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2A/LE/LATCp4=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "State1"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2A/LVk7A4U8o=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "State2"
+						},
+						{
+							"_type": "UMLFinalState",
+							"_id": "AAAAAAF2A/MtgrCQ9wg=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "f"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2A/NOLbCV3a4=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "State3"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2A/NfI7C6vaQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "State4"
+						}
+					],
+					"transitions": [
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/LqnbBdXQ4=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t1",
+							"source": {
+								"$ref": "AAAAAAF2A/LE/LATCp4="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/LE/LATCp4="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/L5cLBuLRQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t2",
+							"source": {
+								"$ref": "AAAAAAF2A/LE/LATCp4="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/LVk7A4U8o="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/MX8rB/7EA=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t0",
+							"source": {
+								"$ref": "AAAAAAF2A/Kt5LACam0="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/LE/LATCp4="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/N99bDgoBA=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t3",
+							"source": {
+								"$ref": "AAAAAAF2A/LVk7A4U8o="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/NOLbCV3a4="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/OLD7DxOYo=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t4",
+							"source": {
+								"$ref": "AAAAAAF2A/LVk7A4U8o="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/NfI7C6vaQ="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/OeO7ECscI=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t5",
+							"source": {
+								"$ref": "AAAAAAF2A/NOLbCV3a4="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/MtgrCQ9wg="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2A/OxCrETCt4=",
+							"_parent": {
+								"$ref": "AAAAAAF2A/KORq/8das="
+							},
+							"name": "t6",
+							"source": {
+								"$ref": "AAAAAAF2A/NfI7C6vaQ="
+							},
+							"target": {
+								"$ref": "AAAAAAF2A/MtgrCQ9wg="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

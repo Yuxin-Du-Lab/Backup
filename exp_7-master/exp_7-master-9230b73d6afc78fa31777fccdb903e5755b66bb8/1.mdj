@@ -1,0 +1,543 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF1SveOgyYbveU=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Person",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAF1SzLwuiuSgEU=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF1SzLwuiuTdlo=",
+								"_parent": {
+									"$ref": "AAAAAAF1SzLwuiuSgEU="
+								},
+								"reference": {
+									"$ref": "AAAAAAF1SveOgyYbveU="
+								},
+								"navigable": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF1SzLwuiuU1Mg=",
+								"_parent": {
+									"$ref": "AAAAAAF1SzLwuiuSgEU="
+								},
+								"name": "jobFactory",
+								"reference": {
+									"$ref": "AAAAAAF1SyCE3ifcM2w="
+								},
+								"visibility": "private",
+								"multiplicity": "1"
+							}
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAF1SzvZxDC6mEA=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF1SzvZxTC79nY=",
+								"_parent": {
+									"$ref": "AAAAAAF1SzvZxDC6mEA="
+								},
+								"reference": {
+									"$ref": "AAAAAAF1SveOgyYbveU="
+								},
+								"navigable": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF1SzvZxTC8fPI=",
+								"_parent": {
+									"$ref": "AAAAAAF1SzvZxDC6mEA="
+								},
+								"reference": {
+									"$ref": "AAAAAAF1SzavUy3gpco="
+								}
+							}
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1Svh5RyZGtVI=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "money",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1Svkh+yZOiq0=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "energy",
+							"visibility": "private",
+							"type": "double"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1SwgAGyb6AYo=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "strength",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1SwihSScDKB0=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "knowledge",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1UCii5NdvJW8=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "favoriteSport",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAF1SzavUy3gpco="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SvqPHiZWCpk=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "eat"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SwVeJSa2Wcs=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "work"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1TcmJi5V+0ok=",
+							"_parent": {
+								"$ref": "AAAAAAF1SveOgyYbveU="
+							},
+							"name": "doSport"
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF1SwZvvibBqBg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Job",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1SwbIeCbr5hY=",
+							"_parent": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							},
+							"name": "pay",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1SwfVDCb0MFw=",
+							"_parent": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							},
+							"name": "consume",
+							"visibility": "private",
+							"type": "double"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SyHzjyg/vbk=",
+							"_parent": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							},
+							"name": "getPay",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyIZSChGbto=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyHzjyg/vbk="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SyN3ZChQRp0=",
+							"_parent": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							},
+							"name": "getConsume",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyO2rShXOwI=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyN3ZChQRp0="
+									},
+									"type": "double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SyP7QyhcBQ8=",
+							"_parent": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							},
+							"name": "checkIdentity",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyR2uShjqzs=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyP7QyhcBQ8="
+									},
+									"name": "strength",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyR2uShktzM=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyP7QyhcBQ8="
+									},
+									"name": "knowledge",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SySy1yhq538=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyP7QyhcBQ8="
+									},
+									"type": "boolean",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF1SyCE3ifcM2w=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "JobFactory",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAF1SzAXYyqdo0I=",
+							"_parent": {
+								"$ref": "AAAAAAF1SyCE3ifcM2w="
+							},
+							"source": {
+								"$ref": "AAAAAAF1SyCE3ifcM2w="
+							},
+							"target": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SyDMLCgInOQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1SyCE3ifcM2w="
+							},
+							"name": "createJob",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyFiAigPtCM=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyDMLCgInOQ="
+									},
+									"name": "type",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyTrcyht3lE=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyDMLCgInOQ="
+									},
+									"type": {
+										"$ref": "AAAAAAF1SwZvvibBqBg="
+									},
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF1SyGPzCgT09Q=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Code",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAF1SyvvHimdb/k=",
+							"_parent": {
+								"$ref": "AAAAAAF1SyGPzCgT09Q="
+							},
+							"source": {
+								"$ref": "AAAAAAF1SyGPzCgT09Q="
+							},
+							"target": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SyMjByhKSek=",
+							"_parent": {
+								"$ref": "AAAAAAF1SyGPzCgT09Q="
+							},
+							"name": "checkIdentity",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyWrSChxBrc=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyMjByhKSek="
+									},
+									"name": "strength",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyWrSChysJM=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyMjByhKSek="
+									},
+									"name": "knowledge",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SyXoPSh3WeE=",
+									"_parent": {
+										"$ref": "AAAAAAF1SyMjByhKSek="
+									},
+									"type": "boolean",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF1SymdMyk6YwQ=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Port",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAF1SywEVymuhNM=",
+							"_parent": {
+								"$ref": "AAAAAAF1SymdMyk6YwQ="
+							},
+							"source": {
+								"$ref": "AAAAAAF1SymdMyk6YwQ="
+							},
+							"target": {
+								"$ref": "AAAAAAF1SwZvvibBqBg="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SynVLilk9Sw=",
+							"_parent": {
+								"$ref": "AAAAAAF1SymdMyk6YwQ="
+							},
+							"name": "checkIdentity",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SynjQilrIfE=",
+									"_parent": {
+										"$ref": "AAAAAAF1SynVLilk9Sw="
+									},
+									"name": "strength",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SynjQilshhU=",
+									"_parent": {
+										"$ref": "AAAAAAF1SynVLilk9Sw="
+									},
+									"name": "knowledge",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SynjQiltFYA=",
+									"_parent": {
+										"$ref": "AAAAAAF1SynVLilk9Sw="
+									},
+									"type": "boolean",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAF1SzavUy3gpco=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Sport",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SzfQRS80P2Q=",
+							"_parent": {
+								"$ref": "AAAAAAF1SzavUy3gpco="
+							},
+							"name": "exercise1",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SzuBxjCBCdg=",
+									"_parent": {
+										"$ref": "AAAAAAF1SzfQRS80P2Q="
+									},
+									"type": "int"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF1SzcUby7d5/A=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Run",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAF1Szv6JjEY6aQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1SzcUby7d5/A="
+							},
+							"source": {
+								"$ref": "AAAAAAF1SzcUby7d5/A="
+							},
+							"target": {
+								"$ref": "AAAAAAF1SzavUy3gpco="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1SzhuDS9xmVY=",
+							"_parent": {
+								"$ref": "AAAAAAF1SzcUby7d5/A="
+							},
+							"name": "exercise1",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1SztXJzBkQhc=",
+									"_parent": {
+										"$ref": "AAAAAAF1SzhuDS9xmVY="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF1T+qV0oy86Ow=",
+							"_parent": {
+								"$ref": "AAAAAAF1SzcUby7d5/A="
+							},
+							"name": "exercise2",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF1T+rTwozzRRM=",
+									"_parent": {
+										"$ref": "AAAAAAF1T+qV0oy86Ow="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

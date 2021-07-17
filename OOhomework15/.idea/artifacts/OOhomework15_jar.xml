@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OOhomework15:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OOhomework15_jar</output-path>
+    <root id="archive" name="OOhomework15.jar">
+      <element id="module-output" name="OOhomework15" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/U4T3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

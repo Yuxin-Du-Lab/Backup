@@ -1,0 +1,7 @@
+{"_parent":"AAAAAAFFqBWK6M3Z8Y=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAF6H0TJei9v5Is="}
+{"_parent":"AAAAAAF6H0TJei9v5Is=","name":null,"_type":"UMLAssociation","end2":"AAAAAAF6H0UjIijewM=","end1":"AAAAAAF6H0UjIiizlE=","_id":"AAAAAAF6H0UjIihgjg="}
+{"reference":"AAAAAAF6H0TJei9v5Is=","multiplicity":"","_parent":"AAAAAAF6H0UjIihgjg=","visibility":"public","name":"a1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAF6H0UjIijewM="}
+{"reference":"AAAAAAF6H0TJei9v5Is=","multiplicity":"","_parent":"AAAAAAF6H0UjIihgjg=","visibility":"public","name":"a1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAF6H0UjIiizlE="}
+{"_parent":"AAAAAAF6H0TJei9v5Is=","visibility":"public","name":"a0","_type":"UMLAttribute","_id":"AAAAAAF6H0TZaCY58s=","type":"int"}
+END_OF_MODEL
+

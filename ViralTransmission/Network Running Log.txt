@@ -1,0 +1,150 @@
+Infect Initial:
+Infect Initial Num--->1
+INFECTED:Person:	ID2742 | (39,12)
+Infect Initial End
+STEP-------0
+Live Still:	4900
+Live Infected:	4
+Live Severe:	0
+Live Isolated:	0
+Live Recovery:	0
+Death Total:	0
+STEP-------1
+Live Still:	4900
+Live Infected:	10
+Live Severe:	0
+Live Isolated:	0
+Live Recovery:	0
+Death Total:	0
+STEP-------2
+Live Still:	4900
+Live Infected:	20
+Live Severe:	0
+Live Isolated:	0
+Live Recovery:	0
+Death Total:	0
+STEP-------3
+Live Still:	4900
+Live Infected:	32
+Live Severe:	2
+Live Isolated:	0
+Live Recovery:	1
+Death Total:	0
+STEP-------4
+Live Still:	4900
+Live Infected:	55
+Live Severe:	3
+Live Isolated:	0
+Live Recovery:	4
+Death Total:	0
+STEP-------5
+Live Still:	4898
+Live Infected:	86
+Live Severe:	4
+Live Isolated:	0
+Live Recovery:	6
+Death Total:	2
+STEP-------6
+Live Still:	4897
+Live Infected:	128
+Live Severe:	7
+Live Isolated:	0
+Live Recovery:	13
+Death Total:	3
+STEP-------7
+Live Still:	4894
+Live Infected:	185
+Live Severe:	12
+Live Isolated:	0
+Live Recovery:	20
+Death Total:	6
+STEP-------8
+Live Still:	4890
+Live Infected:	259
+Live Severe:	14
+Live Isolated:	0
+Live Recovery:	37
+Death Total:	10
+STEP-------9
+Live Still:	4882
+Live Infected:	341
+Live Severe:	18
+Live Isolated:	0
+Live Recovery:	51
+Death Total:	18
+STEP-------10
+Live Still:	4876
+Live Infected:	433
+Live Severe:	21
+Live Isolated:	0
+Live Recovery:	82
+Death Total:	24
+STEP-------11
+Live Still:	4864
+Live Infected:	554
+Live Severe:	25
+Live Isolated:	0
+Live Recovery:	111
+Death Total:	36
+STEP-------12
+Live Still:	4855
+Live Infected:	680
+Live Severe:	34
+Live Isolated:	0
+Live Recovery:	164
+Death Total:	45
+STEP-------13
+Live Still:	4839
+Live Infected:	876
+Live Severe:	43
+Live Isolated:	0
+Live Recovery:	209
+Death Total:	61
+STEP-------14
+Live Still:	4821
+Live Infected:	1128
+Live Severe:	54
+Live Isolated:	0
+Live Recovery:	265
+Death Total:	79
+STEP-------15
+Live Still:	4796
+Live Infected:	1394
+Live Severe:	61
+Live Isolated:	0
+Live Recovery:	341
+Death Total:	104
+STEP-------16
+Live Still:	4767
+Live Infected:	1684
+Live Severe:	74
+Live Isolated:	0
+Live Recovery:	424
+Death Total:	133
+STEP-------17
+Live Still:	4735
+Live Infected:	1941
+Live Severe:	98
+Live Isolated:	0
+Live Recovery:	540
+Death Total:	165
+STEP-------18
+Live Still:	4693
+Live Infected:	2170
+Live Severe:	100
+Live Isolated:	0
+Live Recovery:	710
+Death Total:	207
+STEP-------19
+Live Still:	4637
+Live Infected:	2380
+Live Severe:	131
+Live Isolated:	0
+Live Recovery:	847
+Death Total:	263
+Live Still:	4637
+Live Infected:	2380
+Live Severe:	131
+Live Isolated:	0
+Live Recovery:	847
+Death Total:	263

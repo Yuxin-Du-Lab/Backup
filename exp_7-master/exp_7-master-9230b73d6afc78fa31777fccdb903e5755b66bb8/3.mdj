@@ -1,0 +1,311 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLStateMachine",
+			"_id": "AAAAAAF1UJsaOCp1kMQ=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "StateMachine1",
+			"ownedElements": [
+				{
+					"_type": "UMLStatechartDiagram",
+					"_id": "AAAAAAF1UJsaOSp3+MI=",
+					"_parent": {
+						"$ref": "AAAAAAF1UJsaOCp1kMQ="
+					},
+					"name": "StatechartDiagram1"
+				}
+			],
+			"regions": [
+				{
+					"_type": "UMLRegion",
+					"_id": "AAAAAAF1UJsaOSp2SB0=",
+					"_parent": {
+						"$ref": "AAAAAAF1UJsaOCp1kMQ="
+					},
+					"vertices": [
+						{
+							"_type": "UMLPseudostate",
+							"_id": "AAAAAAF1UJs5tSp88Io=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "start",
+							"kind": "initial"
+						},
+						{
+							"_type": "UMLFinalState",
+							"_id": "AAAAAAF1UJ304iqOXEI=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "final"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF1UJ40IyqWzug=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "ordered"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF1UKcV6SrX8So=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "stockup"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF1ULc2Wiw4dNg=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "Shipment failed"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF1ULeXwSx+oJg=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "shipped"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF1UL9BYCzuk9Q=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "finished"
+						}
+					],
+					"transitions": [
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1UKbMySrGnNw=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"name": "place an order",
+							"source": {
+								"$ref": "AAAAAAF1UJs5tSp88Io="
+							},
+							"target": {
+								"$ref": "AAAAAAF1UJ40IyqWzug="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1UK992CtA3ow=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1UJ40IyqWzug="
+							},
+							"target": {
+								"$ref": "AAAAAAF1UKcV6SrX8So="
+							},
+							"guard": "order.isPaid == true",
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF1ULKSECwbGjw=",
+									"_parent": {
+										"$ref": "AAAAAAF1UK992CtA3ow="
+									},
+									"name": "Merchant.getOrder()"
+								}
+							],
+							"effects": [
+								{
+									"_type": "UMLOpaqueBehavior",
+									"_id": "AAAAAAF1ULNnLCwfxXo=",
+									"_parent": {
+										"$ref": "AAAAAAF1UK992CtA3ow="
+									},
+									"name": "Merchant.stockup()"
+								}
+							]
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1ULkFSCypbwA=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1UKcV6SrX8So="
+							},
+							"target": {
+								"$ref": "AAAAAAF1ULc2Wiw4dNg="
+							},
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF1ULk+1yzLRzc=",
+									"_parent": {
+										"$ref": "AAAAAAF1ULkFSCypbwA="
+									},
+									"name": "outOfStock()"
+								}
+							],
+							"effects": [
+								{
+									"_type": "UMLOpaqueBehavior",
+									"_id": "AAAAAAF1ULnFhizP6U0=",
+									"_parent": {
+										"$ref": "AAAAAAF1ULkFSCypbwA="
+									},
+									"name": "Merchant.getStockFailed()"
+								}
+							]
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1ULkSMCy6r5g=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1UKcV6SrX8So="
+							},
+							"target": {
+								"$ref": "AAAAAAF1ULeXwSx+oJg="
+							},
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF1ULq8FyzVqxA=",
+									"_parent": {
+										"$ref": "AAAAAAF1ULkSMCy6r5g="
+									},
+									"name": "stockAvailable()"
+								}
+							],
+							"effects": [
+								{
+									"_type": "UMLOpaqueBehavior",
+									"_id": "AAAAAAF1ULuDaizaBUM=",
+									"_parent": {
+										"$ref": "AAAAAAF1ULkSMCy6r5g="
+									},
+									"name": "Merchant.deliveryStock()"
+								}
+							]
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1UL/dOC0UDCI=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1ULeXwSx+oJg="
+							},
+							"target": {
+								"$ref": "AAAAAAF1UL9BYCzuk9Q="
+							},
+							"guard": "Customer.confirmReceipt()",
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF1UMI1ry1T6aU=",
+									"_parent": {
+										"$ref": "AAAAAAF1UL/dOC0UDCI="
+									},
+									"name": "goodsArrived()"
+								}
+							],
+							"effects": [
+								{
+									"_type": "UMLOpaqueBehavior",
+									"_id": "AAAAAAF1UMCpbC0sovU=",
+									"_parent": {
+										"$ref": "AAAAAAF1UL/dOC0UDCI="
+									},
+									"name": "orderFinished()"
+								}
+							]
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1UMFnly0wWmQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1ULc2Wiw4dNg="
+							},
+							"target": {
+								"$ref": "AAAAAAF1UJ304iqOXEI="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1UMF7xC1CPUg=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1UL9BYCzuk9Q="
+							},
+							"target": {
+								"$ref": "AAAAAAF1UJ304iqOXEI="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF1UMQk3y1YVrQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1UJsaOSp2SB0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1ULeXwSx+oJg="
+							},
+							"target": {
+								"$ref": "AAAAAAF1UKcV6SrX8So="
+							},
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF1UMRU3y1pgvU=",
+									"_parent": {
+										"$ref": "AAAAAAF1UMQk3y1YVrQ="
+									},
+									"name": "goodsLost()"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,208 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLStateMachine",
+			"_id": "AAAAAAF2BC3hE0Zf/aE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "StateMachine1",
+			"regions": [
+				{
+					"_type": "UMLRegion",
+					"_id": "AAAAAAF2BC3hE0Zgg4A=",
+					"_parent": {
+						"$ref": "AAAAAAF2BC3hE0Zf/aE="
+					},
+					"vertices": [
+						{
+							"_type": "UMLPseudostate",
+							"_id": "AAAAAAF2BC4HGEZmr1c=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"name": "p",
+							"kind": "initial"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2BC4MBkZ3hAw=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"name": "State1"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2BC4TZUacjrI=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"name": "State2"
+						},
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAF2BC4XvkbBb4M=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"name": "State3"
+						},
+						{
+							"_type": "UMLFinalState",
+							"_id": "AAAAAAF2BC4tx0bmkmc=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"name": "f"
+						}
+					],
+					"transitions": [
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2BC45NUbrGVk=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"source": {
+								"$ref": "AAAAAAF2BC4HGEZmr1c="
+							},
+							"target": {
+								"$ref": "AAAAAAF2BC4MBkZ3hAw="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2BC5IlEb8034=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"source": {
+								"$ref": "AAAAAAF2BC4MBkZ3hAw="
+							},
+							"target": {
+								"$ref": "AAAAAAF2BC4TZUacjrI="
+							},
+							"guard": "1==1",
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF2BC7w6UdT3uc=",
+									"_parent": {
+										"$ref": "AAAAAAF2BC5IlEb8034="
+									},
+									"name": "Event1()"
+								}
+							]
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2BC5VkEcNuys=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"source": {
+								"$ref": "AAAAAAF2BC4TZUacjrI="
+							},
+							"target": {
+								"$ref": "AAAAAAF2BC4MBkZ3hAw="
+							},
+							"guard": "1!=1",
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF2BDHbeUdXo4A=",
+									"_parent": {
+										"$ref": "AAAAAAF2BC5VkEcNuys="
+									},
+									"name": "Event2()"
+								}
+							]
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2BC5lDEceFjg=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"source": {
+								"$ref": "AAAAAAF2BC4MBkZ3hAw="
+							},
+							"target": {
+								"$ref": "AAAAAAF2BC4XvkbBb4M="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2BC5uFEcvMEg=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"source": {
+								"$ref": "AAAAAAF2BC4TZUacjrI="
+							},
+							"target": {
+								"$ref": "AAAAAAF2BC4XvkbBb4M="
+							}
+						},
+						{
+							"_type": "UMLTransition",
+							"_id": "AAAAAAF2BC59TUdAOlI=",
+							"_parent": {
+								"$ref": "AAAAAAF2BC3hE0Zgg4A="
+							},
+							"source": {
+								"$ref": "AAAAAAF2BC4XvkbBb4M="
+							},
+							"target": {
+								"$ref": "AAAAAAF2BC4tx0bmkmc="
+							},
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAF2BDMYoEde2XE=",
+									"_parent": {
+										"$ref": "AAAAAAF2BC59TUdAOlI="
+									},
+									"name": "Event3()"
+								}
+							],
+							"effects": [
+								{
+									"_type": "UMLOpaqueBehavior",
+									"_id": "AAAAAAF2BDL8vUdb66M=",
+									"_parent": {
+										"$ref": "AAAAAAF2BC59TUdAOlI="
+									},
+									"name": "System.exit(0)"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
